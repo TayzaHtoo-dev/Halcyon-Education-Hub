@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Germany Study Consulting | မြန်မာ ကျောင်းသားများအတွက်</title>
+<meta name="description" content="Germany တွင် တက္ကသိုလ်တက်ရောက်ရန် ကျွမ်းကျင်သော ပညာရေးအကြံပေး။ Application, Visa, Scholarship အကူအညီ။">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&family=Playfair+Display:wght@500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./germany-edu.css">
+</head>
+<body>
+
+<!-- LANGUAGE BAR -->
+<div class="lang-bar">
+  <div class="container">
+    <button class="lang-btn active" onclick="setLang('my')" id="btn-my">မြန်မာ</button>
+    <button class="lang-btn" onclick="setLang('en')" id="btn-en">English</button>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#" class="logo">HalyconEdu<span>Hub</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services" data-my="ဝန်ဆောင်မှုများ" data-en="Services">ဝန်ဆောင်မှုများ</a></li>
+        <li><a href="#unis" data-my="တက္ကသိုလ်များ" data-en="Universities">တက္ကသိုလ်များ</a></li>
+        <li><a href="#how" data-my="လုပ်ငန်းစဉ်" data-en="Process">လုပ်ငန်းစဉ်</a></li>
+        <li><a href="#blog" data-my="အကြောင်းအရာများ" data-en="Resources">အကြောင်းအရာများ</a></li>
+        <li><a href="#faq" data-my="မေးခွန်းများ" data-en="FAQ">မေးခွန်းများ</a></li>
+        <li><a href="#cta" class="nav-cta" data-my="အခမဲ့ တိုင်ပင်ဆွေးနွေးရန်" data-en="Free Consultation">အခမဲ့ တိုင်ပင်ဆွေးနွေးရန်</a></li>
+      </ul>
+      <div class="hamburger" onclick="document.getElementById('navLinks').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-eyebrow">🇩🇪 Myanmar's #1 Germany Education Consultant</div>
+        <h1 class="my-text">Germany တွင် <span class="gold">ပညာသင်ရန်</span><br>သင်၏ အိပ်မက်ကို<br>အကောင်အထည်ဖော်ပါ</h1>
+        <h1 class="en-text" style="display:none;">Study in <span class="gold">Germany</span> —<br>We Guide You<br>Every Step</h1>
+        <p class="hero-sub my-text">Germany တက္ကသိုလ်တွင် ဝင်ခွင့်ရရှိရန် Application မှ Visa အထိ ကျွမ်းကျင်သော အကြံပေး</p>
+        <p class="hero-sub en-text" style="display:none;">Expert consulting for Myanmar students — from university application to visa success.</p>
+        <p class="hero-sub-en my-text">Expert consulting: application, visa, scholarship & arrival support</p>
+        <div class="hero-btns">
+          <a href="#cta" class="btn-primary my-text">အခမဲ့ တိုင်ပင်ဆွေးနွေးရန်</a>
+          <a href="#cta" class="btn-primary en-text" style="display:none;">Book Free Consultation</a>
+          <a href="#services" class="btn-outline my-text">ဝန်ဆောင်မှုများ ကြည့်ရှုရန်</a>
+          <a href="#services" class="btn-outline en-text" style="display:none;">View Our Services</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-num">500+</div>
+            <div class="stat-label my-text stat-label-my">ကျောင်းသားများ ဝင်ခွင့်ရ</div>
+            <div class="stat-label en-text" style="display:none;">Students Placed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">98%</div>
+            <div class="stat-label my-text stat-label-my">Visa အောင်မြင်မှုနှုန်း</div>
+            <div class="stat-label en-text" style="display:none;">Visa Success Rate</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">100+</div>
+            <div class="stat-label my-text stat-label-my">တက္ကသိုလ်များ ပံ့ပိုး</div>
+            <div class="stat-label en-text" style="display:none;">Partner Universities</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">8+</div>
+            <div class="stat-label my-text stat-label-my">နှစ်ပေါင်း အတွေ့အကြုံ</div>
+            <div class="stat-label en-text" style="display:none;">Years Experience</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-flag">🇩🇪</div>
+        <div class="hero-card-title my-text">အခမဲ့ အကဲဖြတ်ရန်</div>
+        <div class="hero-card-title en-text" style="display:none;">Free Assessment</div>
+        <div class="hero-card-sub my-text">သင်၏ Germany ပညာရေး ခရီးကို ယနေ့ စတင်ပါ</div>
+        <div class="hero-card-sub en-text" style="display:none;">Start your Germany journey today</div>
+        <div class="mini-form">
+          <label class="my-text">နာမည်</label>
+          <label class="en-text" style="display:none;">Full Name</label>
+          <input type="text" placeholder="ကိုသူရ / Ko Thu Ra">
+          <label class="my-text">တက်လိုသော ဘာသာရပ်</label>
+          <label class="en-text" style="display:none;">Desired Field of Study</label>
+          <select>
+            <option>Engineering / အင်ဂျင်နီယာ</option>
+            <option>Computer Science / ကွန်ပျူတာသိပ္ပံ</option>
+            <option>Business / စီးပွားရေး</option>
+            <option>Medicine / ဆေးပညာ</option>
+            <option>Architecture / ဗိသုကာ</option>
+            <option>Others / အခြား</option>
+          </select>
+          <label class="my-text">ဖုန်းနံပါတ် / Phone</label>
+          <label class="en-text" style="display:none;">Phone Number</label>
+          <input type="tel" placeholder="+95 9...">
+          <button class="mini-form-btn my-text">အခမဲ့ စစ်ဆေးရန် ▸</button>
+          <button class="mini-form-btn en-text" style="display:none;">Get Free Assessment ▸</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-label">OUR SERVICES</div>
+      <div class="section-title-my my-text">ကျွန်ုပ်တို့၏ ဝန်ဆောင်မှုများ</div>
+      <div class="section-title en-text" style="display:none;">What We Offer</div>
+      <p class="section-sub my-text">Application မှ Arrival အထိ — အဆင့်တိုင်း ကျွန်ုပ်တို့ သင်နှင့်အတူ ရှိပါမည်</p>
+      <p class="section-sub en-text" style="display:none;">From first application to your arrival in Germany — we're with you at every step.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">🎓</div>
+        <div class="service-title-my my-text">တက္ကသိုလ် ရွေးချယ်မှု</div>
+        <div class="service-title en-text" style="display:none;">University Selection</div>
+        <div class="service-desc my-text">သင်၏ GPA၊ ဘာသာရပ်နှင့် ရည်မှန်းချက်အပေါ် မူတည်၍ အကောင်းဆုံး တက္ကသိုလ်များ ရွေးချယ်ပေးသည်</div>
+        <div class="service-desc en-text" style="display:none;">We shortlist the best German universities based on your GPA, field, and goals.</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">📋</div>
+        <div class="service-title-my my-text">Application ကူညီမှု</div>
+        <div class="service-title en-text" style="display:none;">Application Support</div>
+        <div class="service-desc my-text">SOP၊ CV၊ ထောက်ခံစာများ ပြင်ဆင်ရာတွင် ကျွမ်းကျင်သော လမ်းညွှန်မှု</div>
+        <div class="service-desc en-text" style="display:none;">Expert guidance on SOP, CV, recommendation letters and document preparation.</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🛂</div>
+        <div class="service-title-my my-text">Visa အကြံပေး</div>
+        <div class="service-title en-text" style="display:none;">Visa Consulting</div>
+        <div class="service-desc my-text">Student Visa၊ Blocked Account (€11,208) နှင့် Appointment ကြိုတင်ဆောင်ရွက်ရာတွင် အပြည့်အဝ ကူညီမည်</div>
+        <div class="service-desc en-text" style="display:none;">Full support for student visa, blocked account (€11,208), and embassy appointments.</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🗣️</div>
+        <div class="service-title-my my-text">ဘာသာစကား ပြင်ဆင်မှု</div>
+        <div class="service-title en-text" style="display:none;">Language Preparation</div>
+        <div class="service-desc my-text">German B1/B2၊ TestDaF နှင့် IELTS ပြင်ဆင်ရာတွင် အကြောင်းအရာများ ပံ့ပိုးသည်</div>
+        <div class="service-desc en-text" style="display:none;">Resources and guidance for German B1/B2, TestDaF, and IELTS preparation.</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">💰</div>
+        <div class="service-title-my my-text">ပညာသင်ဆုရှာဖွေမှု</div>
+        <div class="service-title en-text" style="display:none;">Scholarship Search</div>
+        <div class="service-desc my-text">DAAD၊ Erasmus+ နှင့် တက္ကသိုလ်ပညာသင်ဆုများ လျှောက်ထားရာတွင် အကြံပေး</div>
+        <div class="service-desc en-text" style="display:none;">We help you apply for DAAD, Erasmus+, and university-specific scholarships.</div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🏠</div>
+        <div class="service-title-my my-text">Germany ရောက်ချိန် ပြင်ဆင်မှု</div>
+        <div class="service-title en-text" style="display:none;">Pre-Departure Support</div>
+        <div class="service-desc my-text">နေရာနေထိုင်ရေး၊ သွားရောက်ဆေးစစ်မှု၊ ဘဏ်အကောင့် ဖွင့်ရာတွင် ကူညီမည်</div>
+        <div class="service-desc en-text" style="display:none;">Help with housing, health insurance, and bank account setup before you fly.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how" id="how">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-label" style="color:var(--gold-light);">HOW IT WORKS</div>
+      <div class="section-title-my my-text" style="color:white;">လုပ်ငန်းစဉ် — ၅ အဆင့်သာ</div>
+      <div class="section-title en-text" style="display:none;color:white;">Just 5 Simple Steps</div>
+      <p class="section-sub my-text">Germany ရောက်ရှိသည်အထိ ကျွန်ုပ်တို့ လမ်းညွှန်ပေးမည်</p>
+      <p class="section-sub en-text" style="display:none;">We guide you from your first question to your first day in Germany.</p>
+    </div>
+    <div class="steps-timeline">
+      <div class="step-item">
+        <div class="step-num-circle">1</div>
+        <div class="step-content">
+          <div class="step-title-my my-text">အခမဲ့ ပထမဆုံး တိုင်ပင်ဆွေးနွေးမှု</div>
+          <div class="step-title en-text" style="display:none;">Free Initial Consultation</div>
+          <div class="step-desc my-text">သင်၏ GPA၊ English အဆင့် နှင့် ရည်မှန်းချက်များကို သုံးသပ်ပေးသည်</div>
+          <div class="step-desc en-text" style="display:none;">We assess your GPA, English level, and academic goals — no cost, no pressure.</div>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num-circle">2</div>
+        <div class="step-content">
+          <div class="step-title-my my-text">တက္ကသိုလ် နှင့် Course ရွေးချယ်ခြင်း</div>
+          <div class="step-title en-text" style="display:none;">University & Course Matching</div>
+          <div class="step-desc my-text">သင်နှင့် အကိုက်ညီဆုံးသော တက္ကသိုလ် ၃–၅ ခု ရွေးချယ်ပေးသည်</div>
+          <div class="step-desc en-text" style="display:none;">We shortlist 3–5 universities that best match your profile and interests.</div>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num-circle">3</div>
+        <div class="step-content">
+          <div class="step-title-my my-text">Application စာရွက်စာတမ်း ပြင်ဆင်ခြင်း</div>
+          <div class="step-title en-text" style="display:none;">Document & Application Prep</div>
+          <div class="step-desc my-text">SOP ရေးသားခြင်း၊ ဘာသာပြန်ဆိုခြင်း၊ Apostille နှင့် တင်သွင်းခြင်း</div>
+          <div class="step-desc en-text" style="display:none;">SOP writing, translation, Apostille certification, and submission support.</div>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num-circle">4</div>
+        <div class="step-content">
+          <div class="step-title-my my-text">Visa နှင့် Blocked Account</div>
+          <div class="step-title en-text" style="display:none;">Visa & Blocked Account</div>
+          <div class="step-desc my-text">German Consulate Appointment၊ Blocked Account ဖွင့်ရာ — အဆင့်ဆင့် ကူညီမည်</div>
+          <div class="step-desc en-text" style="display:none;">We guide you through every step of the visa process and blocked account setup.</div>
+        </div>
+      </div>
+      <div class="step-item">
+        <div class="step-num-circle">5</div>
+        <div class="step-content">
+          <div class="step-title-my my-text">Germany ထွက်ခွာမည့် ပြင်ဆင်မှု</div>
+          <div class="step-title en-text" style="display:none;">Pre-Departure & Arrival</div>
+          <div class="step-desc my-text">အာမခံ၊ လေယာဉ်လက်မှတ်၊ နေထိုင်ရာ ရှာဖွေရာ ကူညီပြီး ကောင်းသော ခရီး ဆုတောင်းသည်</div>
+          <div class="step-desc en-text" style="display:none;">Insurance, travel tips, housing — we make sure you land in Germany ready.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- UNIVERSITIES -->
+<section class="unis" id="unis">
+  <div class="container">
+    <div class="section-head center">
+      <div class="section-label">PARTNER UNIVERSITIES</div>
+      <div class="section-title-my my-text">Germany တက္ကသိုလ်များ</div>
+      <div class="section-title en-text" style="display:none;">Top German Universities</div>
+      <p class="section-sub my-text">ကျွန်ုပ်တို့ ပါဝင်ခဲ့သော ကျောင်းများ</p>
+      <p class="section-sub en-text" style="display:none;">Universities where our students have been accepted.</p>
+    </div>
+    <div class="uni-grid">
+      <div class="uni-card"><div class="uni-flag">🏛️</div><div><div class="uni-name">TU Munich</div><div class="uni-field">Engineering, CS, Sciences</div><div class="uni-badge">QS Top 50</div></div></div>
+      <div class="uni-card"><div class="uni-flag">🏛️</div><div><div class="uni-name">LMU Munich</div><div class="uni-field">Medicine, Humanities</div><div class="uni-badge">QS Top 60</div></div></div>
+      <div class="uni-card"><div class="uni-flag">🏛️</div><div><div class="uni-name">Heidelberg Uni</div><div class="uni-field">Sciences, Law, Medicine</div><div class="uni-badge">Germany's Oldest</div></div></div>
+      <div class="uni-card"><div class="uni-flag">🏛️</div><div><div class="uni-name">TU Berlin</div><div class="uni-field">Engineering, Architecture</div><div class="uni-badge">Research Leader</div></div></div>
+      <div class="uni-card"><div class="uni-flag">🏛️</div><div><div class="uni-name">Humboldt Berlin</div><div class="uni-field">Arts, Social Science, Law</div><div class="uni-badge">Founded 1810</div></div></div>
+      <div class="uni-card"><div class="uni-flag">🏛️</div><div><div class="uni-name">KIT Karlsruhe</div><div class="uni-field">Technology, IT, Physics</div><div class="uni-badge">STEM Excellence</div></div></div>
+      <div class="uni-card"><div class="uni-flag">🏛️</div><div><div class="uni-name">Uni Hamburg</div><div class="uni-field">Business, Law, Sciences</div><div class="uni-badge">Port City Campus</div></div></div>
+      <div class="uni-card"><div class="uni-flag">🏛️</div><div><div class="uni-name">RWTH Aachen</div><div class="uni-field">Engineering, Manufacturing</div><div class="uni-badge">Engineering #1</div></div></div>
+      <div class="uni-card"><div class="uni-flag">🏛️</div><div><div class="uni-name">Uni Frankfurt</div><div class="uni-field">Finance, Economics, Law</div><div class="uni-badge">Finance Hub</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG / RESOURCES -->
+<section class="blog" id="blog">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-label">RESOURCES & GUIDES</div>
+      <div class="section-title-my my-text">အသုံးဝင်သော လမ်းညွှန်များ</div>
+      <div class="section-title en-text" style="display:none;">Helpful Guides & Resources</div>
+      <p class="section-sub my-text">Germany ပညာရေးနှင့်ပတ်သက်သော အသေးစိတ် အကြောင်းအရာများ</p>
+      <p class="section-sub en-text" style="display:none;">In-depth articles for Myanmar students planning to study in Germany.</p>
+    </div>
+    <div class="blog-grid">
+      <div class="blog-card">
+        <div class="blog-thumb visa">🛂</div>
+        <div class="blog-body">
+          <div class="blog-tag">VISA GUIDE</div>
+          <div class="blog-title">Germany Student Visa: Complete Guide 2025</div>
+          <div class="blog-title-my my-text">Germany ကျောင်းသား Visa လျှောက်ထားနည်း — အပြည့်အဝ လမ်းညွှန်</div>
+          <div class="blog-meta"><span>8 min read</span><span>Updated Jan 2025</span></div>
+          <a href="#" class="blog-read my-text">ဖတ်ရှုရန် →</a>
+          <a href="#" class="blog-read en-text" style="display:none;">Read more →</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-thumb lang">🗣️</div>
+        <div class="blog-body">
+          <div class="blog-tag">LANGUAGE</div>
+          <div class="blog-title">TestDaF vs DSH: Which Do You Need?</div>
+          <div class="blog-title-my my-text">TestDaF နှင့် IELTS — မည်သည်ကို ရွေးချယ်မည်နည်း</div>
+          <div class="blog-meta"><span>6 min read</span><span>Updated Dec 2024</span></div>
+          <a href="#" class="blog-read my-text">ဖတ်ရှုရန် →</a>
+          <a href="#" class="blog-read en-text" style="display:none;">Read more →</a>
+        </div>
+      </div>
+      <div class="blog-card">
+        <div class="blog-thumb schol">🏆</div>
+        <div class="blog-body">
+          <div class="blog-tag">SCHOLARSHIP</div>
+          <div class="blog-title">DAAD Scholarship: How to Apply from Myanmar</div>
+          <div class="blog-title-my my-text">DAAD ပညာသင်ဆု — မြန်မာကျောင်းသားများ မည်သို့ လျှောက်ထားမည်နည်း</div>
+          <div class="blog-meta"><span>10 min read</span><span>Updated Nov 2024</span></div>
+          <a href="#" class="blog-read my-text">ဖတ်ရှုရန် →</a>
+          <a href="#" class="blog-read en-text" style="display:none;">Read more →</a>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:36px;">
+      <a href="#" class="btn-primary" style="background:var(--navy); color:white;">
+        <span class="my-text">ဆောင်းပါးအားလုံး ကြည့်ရှုရန်</span>
+        <span class="en-text" style="display:none;">View All Articles</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="section-head center">
+      <div class="section-label">SUCCESS STORIES</div>
+      <div class="section-title-my my-text">ကျောင်းသားများ၏ အောင်မြင်မှုများ</div>
+      <div class="section-title en-text" style="display:none;">Student Success Stories</div>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <div class="testi-text my-text">GermanyStudy ကြောင့် TU Munich တွင် Computer Science တက်ရောက်နိုင်ခဲ့သည်။ Visa အပြင် Application အဆင့်ဆင့်တိုင်း ကူညီပေးသောကြောင့် ပြဿနာတစ်ခုမျှ မကြုံခဲ့ပါ။</div>
+        <div class="testi-text-en en-text" style="display:none;">"Thanks to GermanyStudy I got into TU Munich for CS. They helped me at every step — visa, documents, everything. Zero problems."</div>
+        <div class="testi-author">
+          <div class="testi-avatar">ကဇ</div>
+          <div>
+            <div class="testi-name">ကိုဇော်ဝင်း</div>
+            <div class="testi-info">MSc Computer Science · TU Munich · 2024</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <div class="testi-text my-text">DAAD ပညာသင်ဆု ရရှိနိုင်မည်ဟု မမျှော်လင့်ခဲ့ပါ။ GermanyStudy က SOP ကောင်းကောင်းရေးနိုင်အောင် ကူညီပြီး ဆုရအောင် ကူညီပေးခဲ့သည်။</div>
+        <div class="testi-text-en en-text" style="display:none;">"I never thought I'd get a DAAD scholarship. GermanyStudy helped me write an amazing SOP and guided me to success."</div>
+        <div class="testi-author">
+          <div class="testi-avatar">မသ</div>
+          <div>
+            <div class="testi-name">မသူဇာ</div>
+            <div class="testi-info">MEng Mechanical · Heidelberg · DAAD Scholar 2024</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <div class="testi-text my-text">Germany Visa ကိစ္စများ ရှုပ်ထွေးသည်ဟု ကြားဖူးသည်။ သို့သော် GermanyStudy နှင့်အတူ Appointment ယူမှ Visa ရသည်အထိ မျှော်လင့်သည်ထက် ပိုမိုမြန်ဆန်ခဲ့သည်။</div>
+        <div class="testi-text-en en-text" style="display:none;">"I heard Germany visas were complicated. With GermanyStudy, from appointment to visa in hand was faster than expected."</div>
+        <div class="testi-author">
+          <div class="testi-avatar">ကမ</div>
+          <div>
+            <div class="testi-name">ကိုမင်းသိန်း</div>
+            <div class="testi-info">BSc Architecture · TU Berlin · 2023</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <div class="testi-text my-text">Blocked Account ဖွင့်ရမည်ကို မသိခဲ့ပါ။ GermanyStudy က Fintiba မှတဆင့် အဆင်ပြေအောင် ကူညီပြီး Visa ရောက်မည့် ရက်ကိုပါ တွက်ချက်ပေးခဲ့သည်။</div>
+        <div class="testi-text-en en-text" style="display:none;">"I didn't know about blocked accounts. GermanyStudy helped me set up via Fintiba and even predicted my visa arrival date."</div>
+        <div class="testi-author">
+          <div class="testi-avatar">မန</div>
+          <div>
+            <div class="testi-name">မနွေဦး</div>
+            <div class="testi-info">MSc Business Admin · LMU Munich · 2024</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-head center">
+      <div class="section-label" style="color:var(--gold-light);">FAQ</div>
+      <div class="section-title-my my-text" style="color:white;">မကြာခဏ မေးလေ့ရှိသောမေးခွန်းများ</div>
+      <div class="section-title en-text" style="display:none; color:white;">Frequently Asked Questions</div>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <div class="faq-q-text">
+            <div class="faq-q-my my-text">Germany တက္ကသိုလ်တွင် ဝင်ရောက်နိုင်ရန် GPA မည်မျှ လိုသနည်း</div>
+            <div class="faq-q-en en-text" style="display:none;">What GPA do I need to study in Germany?</div>
+          </div>
+          <div class="faq-arrow">+</div>
+        </div>
+        <div class="faq-ans">
+          <div class="faq-ans-my my-text">အများအားဖြင့် GPA 3.0 (10 scale) ခန့် လိုအပ်သော်လည်း တက္ကသိုလ်နှင့် ဘာသာရပ်အပေါ် မူတည်ပြီး ကွဲပြားနိုင်သည်။</div>
+          <div class="faq-ans-en en-text" style="display:none;">Generally a GPA of 3.0/4.0 or equivalent is required, but it varies by university and program.</div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <div class="faq-q-text">
+            <div class="faq-q-my my-text">Germany တွင် ဘာသာစကား German သိရှိရမည်လား</div>
+            <div class="faq-q-en en-text" style="display:none;">Do I need to know German to study there?</div>
+          </div>
+          <div class="faq-arrow">+</div>
+        </div>
+        <div class="faq-ans">
+          <div class="faq-ans-my my-text">English သင်ကြားသော Master's Program များ အများအပြားရှိသည်။ German သင်ကြားသော ဘာသာရပ်များအတွက် B2/C1 လိုအပ်သည်။</div>
+          <div class="faq-ans-en en-text" style="display:none;">Many Master's programs are taught in English. For German-taught programs, B2/C1 German is required.</div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <div class="faq-q-text">
+            <div class="faq-q-my my-text">Germany တွင် ကျောင်းပညာသင်ဆုကြေး မည်မျှ ကုန်ကျသနည်း</div>
+            <div class="faq-q-en en-text" style="display:none;">How much does it cost to study in Germany?</div>
+          </div>
+          <div class="faq-arrow">+</div>
+        </div>
+        <div class="faq-ans">
+          <div class="faq-ans-my my-text">Public university များတွင် Tuition Fee မကောက်ပါ (Semester fee €100–350 ခန့်သာ)။ နေထိုင်ဆောင် ကုန်ကျငွေ Berlin တွင် တစ်လ €900–1,200 ခန့် ကုန်ကျသည်။</div>
+          <div class="faq-ans-en en-text" style="display:none;">Public universities charge no tuition (only €100–350/semester admin fee). Living costs are around €900–1,200/month in cities like Berlin.</div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <div class="faq-q-text">
+            <div class="faq-q-my my-text">Visa လျှောက်ရန် မည်မျှကြာသနည်း</div>
+            <div class="faq-q-en en-text" style="display:none;">How long does the visa application take?</div>
+          </div>
+          <div class="faq-arrow">+</div>
+        </div>
+        <div class="faq-ans">
+          <div class="faq-ans-my my-text">ပုံမှန်အားဖြင့် Appointment ရပြီး ၄–၈ ပတ်ခန့် ကြာသည်။ ကြိုတင် ၃–၄ လ ခန့် ပြင်ဆင်ပါ။</div>
+          <div class="faq-ans-en en-text" style="display:none;">After the embassy appointment, expect 4–8 weeks for processing. Start preparing 3–4 months in advance.</div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)">
+          <div class="faq-q-text">
+            <div class="faq-q-my my-text">Blocked Account ဆိုတာ ဘာနည်း မည်မျှ လိုအပ်သနည်း</div>
+            <div class="faq-q-en en-text" style="display:none;">What is a blocked account and how much is needed?</div>
+          </div>
+          <div class="faq-arrow">+</div>
+        </div>
+        <div class="faq-ans">
+          <div class="faq-ans-my my-text">Blocked Account သည် Germany ဘဏ်တွင် ဖွင့်သော Special Account ဖြစ်ပြီး ၂၀၂၅ ခုနှစ်တွင် €11,208 (တစ်နှစ်အတွက်) ထည့်ရမည်ဖြစ်သည်။</div>
+          <div class="faq-ans-en en-text" style="display:none;">A blocked account is a special German bank account. In 2025, you must deposit €11,208 to cover one year of living expenses for the visa.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" id="cta">
+  <div class="container">
+    <h2 class="my-text">Germany ခရီးကို ယနေ့ စတင်ပါ</h2>
+    <h2 class="en-text" style="display:none;">Start Your Germany Journey Today</h2>
+    <h3 class="my-text">အခမဲ့ ၃၀ မိနစ် တိုင်ပင်ဆွေးနွေးမှု ကြိုဆိုပါသည်</h3>
+    <h3 class="en-text" style="display:none;">Free 30-Minute Consultation Available</h3>
+    <p class="my-text">ကျွမ်းကျင်သော အကြံပေးနှင့် တိုင်ပင်ပြီး သင်နှင့်အကိုက်ညီဆုံးသော မြင်ကွင်းကို ဖော်ထုတ်ပါ</p>
+    <p class="en-text" style="display:none;">Speak with our expert consultants and discover the path that's right for you.</p>
+    <div class="cta-btns">
+      <a href="https://wa.me/YOUR_NUMBER" class="btn-primary" style="background:#25D366; color:white; display:flex; align-items:center; gap:8px;">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span class="my-text">WhatsApp မှ ဆက်သွယ်ရန်</span>
+        <span class="en-text" style="display:none;">Chat on WhatsApp</span>
+      </a>
+      <a href="https://m.me/YOUR_PAGE" class="btn-primary" style="background:#1877F2; color:white; display:flex; align-items:center; gap:8px;">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="white"><path d="M12 0C5.373 0 0 4.974 0 11.111c0 3.498 1.744 6.614 4.469 8.654V24l4.088-2.242c1.092.3 2.246.464 3.443.464 6.627 0 12-4.975 12-11.111C24 4.974 18.627 0 12 0zm1.191 14.963l-3.055-3.26-5.963 3.26L10.732 8l3.131 3.259L19.752 8l-6.561 6.963z"/></svg>
+        <span class="my-text">Messenger မှ ဆက်သွယ်ရန်</span>
+        <span class="en-text" style="display:none;">Message on Messenger</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">Germany<span>Study</span></div>
+        <div class="footer-tagline-my">မြန်မာ ကျောင်းသားများ Germany ရောက်ရှိနိုင်ရန်</div>
+        <div class="footer-tagline">Helping Myanmar Students Reach Germany</div>
+        <div class="footer-contact-item"><span class="footer-contact-icon">📍</span>Yangon, Myanmar</div>
+        <div class="footer-contact-item"><span class="footer-contact-icon">📱</span>+95 9 XXX XXX XXX</div>
+        <div class="footer-contact-item"><span class="footer-contact-icon">✉️</span>info@germanystudy.com.mm</div>
+        <div class="footer-contact-item"><span class="footer-contact-icon">🕐</span>Mon–Sat, 9am–6pm MMT</div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-my my-text">ဝန်ဆောင်မှုများ</div>
+        <h4 class="en-text" style="display:none;">Services</h4>
+        <ul>
+          <li><a href="#">University Selection</a></li>
+          <li><a href="#">Application Help</a></li>
+          <li><a href="#">Visa Consulting</a></li>
+          <li><a href="#">Scholarships</a></li>
+          <li><a href="#">Language Prep</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-my my-text">လမ်းညွှန်များ</div>
+        <h4 class="en-text" style="display:none;">Resources</h4>
+        <ul>
+          <li><a href="#">Visa Guide</a></li>
+          <li><a href="#">TestDaF Tips</a></li>
+          <li><a href="#">DAAD Scholarship</a></li>
+          <li><a href="#">Blocked Account</a></li>
+          <li><a href="#">Housing in Germany</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-my my-text">အကြောင်းအရာ</div>
+        <h4 class="en-text" style="display:none;">Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Success Stories</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 GermanyStudy Consulting. All rights reserved.</div>
+      <div class="social-links">
+        <a href="#" class="social-link">f</a>
+        <a href="#" class="social-link">in</a>
+        <a href="#" class="social-link">yt</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING CHAT WIDGET -->
+<div class="chat-widget" id="chatWidget">
+  <div class="chat-bubble" id="chatBubble">
+    <div class="my-text">မေးချင်သည်များ ရှိပါသလား? ဆက်သွယ်ပါ 💬</div>
+    <div class="en-text chat-bubble-en" style="display:none;">Have questions? Chat with us!</div>
+  </div>
+  <div class="chat-btns" id="chatBtns" style="display:none;">
+    <a href="https://wa.me/YOUR_NUMBER" class="chat-btn wa" target="_blank">
+      <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp
+    </a>
+    <a href="https://m.me/YOUR_PAGE" class="chat-btn fb" target="_blank">
+      <svg viewBox="0 0 24 24" fill="white"><path d="M12 0C5.373 0 0 4.974 0 11.111c0 3.498 1.744 6.614 4.469 8.654V24l4.088-2.242c1.092.3 2.246.464 3.443.464 6.627 0 12-4.975 12-11.111C24 4.974 18.627 0 12 0zm1.191 14.963l-3.055-3.26-5.963 3.26L10.732 8l3.131 3.259L19.752 8l-6.561 6.963z"/></svg>
+      Messenger
+    </a>
+  </div>
+  <button class="chat-toggle" onclick="toggleChat()" id="chatToggle">💬</button>
+</div>
+<script src="./germany-edu.js"></script>
+</body>
+</html>
